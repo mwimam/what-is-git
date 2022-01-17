@@ -1,0 +1,24 @@
+run on your terminal
+
+check status of changes in git
+==============================
+git status
+
+
+move working area to staging area
+git add (file/folder/.) "." its means add all changes
+==============================
+git add .
+
+move working area to repo
+===============================
+git commit -m "message commit"
+
+move working area to staging & repo
+===============================
+git commit -a
+
+move staging to working
+===============================
+git reset
+
