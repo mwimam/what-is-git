@@ -62,3 +62,5 @@ Git status is used to check changes between working area and stagging area
 ```
 git status
 ```
+
+use git <command> --help to see details abount commands

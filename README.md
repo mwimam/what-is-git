@@ -71,7 +71,7 @@ Stash Apply vs stash pop
 
 link : **[sample-stash-git.txt](https://github.com/mwimam/what-is-git/blob/main/sample-stash-git.txt)**
 
-reference : 
+reference :
 - **[frontendmaster](https://frontendmasters.com)**.
 - **[git docs](https://git-scm.com/docs/git-log)**.
 - **[git tutorial atlassian](https://www.atlassian.com/git/tutorials/using-branches/git-merge)**.
