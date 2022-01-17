@@ -1,0 +1,33 @@
+run on your terminal
+
+check tree of .git
+=====================
+tree .git/objecs 
+
+focus on object tree
+=====================
+
+├── objects
+|  ├── 15
+|  |  └── de8510c70ad23656dddca5437308631604e9a5
+|  ├── aa
+|  |  └── 7b3016772d22ba6c5bc89273857ab3b52786d8
+|  ├── c0
+|  |  └── dd8967a8acba01432f1d700556f6a4cbccd335
+|  ├── f7
+|  |  └── ead4d7d9c6d0c95b525054f1b80b067f8753f7
+|  ├── info
+|  └── pack
+|     ├── pack-13caf9a248b492ad5a45adebc4de7fd2f1b8aeb3.idx
+|     └── pack-13caf9a248b492ad5a45adebc4de7fd2f1b8aeb3.pack
+
+
+see contain of objects
+> git cat-file -p (parent)(objecs)
+====================
+git cat-file -p 15de8510
+
+see type of objects
+> git cat-file -t (parent)(objecs)
+====================
+git cat-file -t 15de8510
