@@ -5,7 +5,7 @@ Git is is distributed version control system that store data in key - value. its
  3. \0 as delimeter
  4. content
 
-link : **[sample.stored-data-git.txt](https://frontendmasters.com)**
+link : **[sample.stored-data-git.txt](https://github.com/mwimam/what-is-git/blob/main/sample.stored-data-git.txt)**
 # Stored Data Git
 Git stores project information and its metadata into blob, tree, and commits objects. its data on .git folder on your repository.
 directory structure are :
@@ -48,7 +48,7 @@ and metadata:
 3. message
 4. parent commit (one or more)
 
-link : **[sample.commit-tree-git.txt](https://frontendmasters.com)**
+link : **[sample.commit-tree-git.txt](https://github.com/mwimam/what-is-git/blob/main/sample.commit-tree-git.txt)**
 
 # Git Area & Stashing
 
@@ -63,6 +63,6 @@ link : **[sample.commit-tree-git.txt](https://frontendmasters.com)**
 ## Git Stashing
 Git stash which is saving work that is not committed to a git repo and is also safe from destructive operations.
 
-link : **[sample-working-area.git.txt](https://frontendmasters.com)**
+link : **[sample-working-area.git.txt](https://github.com/mwimam/what-is-git/blob/main/sample-working-area.git.txt)**
 
 reference : **[frontendmaster](https://frontendmasters.com)**.
