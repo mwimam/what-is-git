@@ -59,5 +59,7 @@ link : sample.commit-tree-git.txt
 2. Staging area, is files that are going to be a part of the next commit, which lets git know what changes in the file are going to occur for the next commit.
 3. The repository contains all of a project's commits.
 
+![image](https://user-images.githubusercontent.com/85268979/149746340-7b63a4b1-6c43-457f-beee-881c6f9a8605.png)
+
 ## Git Stashing
 Git stash which is saving work that is not committed to a git repo and is also safe from destructive operations.
