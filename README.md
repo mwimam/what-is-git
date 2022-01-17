@@ -50,3 +50,14 @@ and metadata:
 4. parent commit (one or more)
 
 link : sample.commit-tree-git.txt
+
+# Git Area & Stashing
+
+## Git Area
+3 Area that code live : 
+1. Working Area, files that are not handled by git. its means your changes file or directory. These files are also referred to as "untracked files."
+2. Staging area, is files that are going to be a part of the next commit, which lets git know what changes in the file are going to occur for the next commit.
+3. The repository contains all of a project's commits.
+
+## Git Stashing
+Git stash which is saving work that is not committed to a git repo and is also safe from destructive operations.
