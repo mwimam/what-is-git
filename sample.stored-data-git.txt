@@ -1,0 +1,17 @@
+run on your terminal
+
+hash object git
+=======================================
+echo 'first hash of git' | git hash-object --stdin
+
+it will produce encypted
+=======================================
+64e0e609e011a1a0fb07d1688dedd9195752b625
+
+encrypt with meta header using sha1 ssl
+=======================================
+echo 'blob 18\0first hash of git' | openssl sha1
+
+it will alse produce same encypted
+=======================================
+64e0e609e011a1a0fb07d1688dedd9195752b625
