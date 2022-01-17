@@ -1,0 +1,33 @@
+run on your terminal
+
+add new branch
+==============================================
+git checkout new_feature
+
+check HEAD
+==============================================
+cat .git/HEAD
+
+add tag
+==============================================
+git tag v0.1
+
+add annotated tag
+==============================================
+git tag -a v0.1 -m "alpha version"
+
+list of all tags
+==============================================
+git tag
+
+list of all tags and show pointed commit
+==============================================
+git show-ref --tags
+
+list of all tags that pointed to define commit
+==============================================
+git tag --points-at 5c53712
+
+looking for tag
+==============================================
+git show v0.1
