@@ -40,7 +40,7 @@ Deleting .git folder will delete information and history of the project, but not
 # Git Commits
 git commit is an object that stores the current contents of the project in a new commit with a log message from the user describing the changes.
 commits contains:
-1. a tree
+1. tree
 
 and metadata:
 1. author and commiter
@@ -60,9 +60,15 @@ link : **[sample.commit-tree-git.txt](https://github.com/mwimam/what-is-git/blob
 
 ![image](https://user-images.githubusercontent.com/85268979/149746340-7b63a4b1-6c43-457f-beee-881c6f9a8605.png)
 
+link : **[sample-working-area.git.txt](https://github.com/mwimam/what-is-git/blob/main/sample-working-area.git.txt)**
+
 ## Git Stashing
 Git stash which is saving work that is not committed to a git repo and is also safe from destructive operations.
 
-link : **[sample-working-area.git.txt](https://github.com/mwimam/what-is-git/blob/main/sample-working-area.git.txt)**
+Stash Apply vs stash pop
+- stash Apply, stash will not remove after apply/move from stash list to working area
+- stash Pop, stash will remove after apply/move from stash list to working area (if there's merge conflict, stash will not remove or deleted)
+
+link : **[sample-stash-git.txt](https://github.com/mwimam/what-is-git/blob/main/sample-stash-git.txt)**
 
 reference : **[frontendmaster](https://frontendmasters.com)**.

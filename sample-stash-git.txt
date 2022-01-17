@@ -1,0 +1,58 @@
+run on your terminal
+
+add stash changes only
+======================
+git stash 
+
+add stash include untracked
+======================
+git stash --include--untracked
+
+add stash all
+======================
+git stash --all
+
+Name stash
+======================
+git stash save "name of stash"
+
+Start new branch from stash
+======================
+git stash branch <optional stash name>
+
+grab single file from stash
+======================
+git checkout <stash_name> -- <file_name>
+
+get list stash
+======================
+git stash list
+
+show contents
+======================
+git stash show stash@{0}
+
+apply latest stash
+======================
+git stash apply
+
+apply latest stash
+======================
+git stash apply stash@{0}
+
+
+pop latest stash
+======================
+git stash pop
+
+drop latest stash
+======================
+git stash drop
+
+drop stash
+======================
+git stash drop stash@{0}
+
+remove all stash
+======================
+git stash clear
