@@ -10,7 +10,8 @@
 ## Rebase
 move or give commit a new parent
 
-image rebase vs mege
+<img width="300" alt="rebase vs merge" src="https://user-images.githubusercontent.com/85268979/149866491-09bc8860-d351-4736-b5ee-e8cb1169981a.png">
+
 
 with rebase commit can be edited, removed, combined, re-ordered, inserted before they "replayed" on top of new HEAD
 
